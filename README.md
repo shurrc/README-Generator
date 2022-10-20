@@ -19,7 +19,7 @@
     In the command line run node index and answer the various prompts provided.
 
     ## Tests
-    Run the program, answer the prompts and see whther a README is created.
+    Run the program, answer the prompts and see whether a README is created.
 
     ## Credits 
     node.js inquirer.js
