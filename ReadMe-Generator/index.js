@@ -23,14 +23,14 @@ const renderMd = (inputObj) =>{
     mdStr += 
 `# ${inputObj.Projectname}
 
-- [Description](##Description)
-- [Installation](##installation)
-- [Usage](##usage)
-- [Tests](##Tests)
-- [Credits](##credits)
-- [License](##license)
-- [Contribution Guidelines](##Contribution)
-- [Questions](##Questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Credits](#credits)
+- [License](#license)
+- [Contribution Guidelines](#contribution)
+- [Questions](#questions)
 
 
 ## Description
@@ -53,10 +53,10 @@ ${inputObj.assets}
 ## License
 ${inputObj.license}
 
-##Contribution Guidelines
+## Contribution Guidelines
 ${inputObj.contrabutionGuidelines}
 
-##Questions
+## Questions
 If you have any questions regarding the project you can contact me on github at https://github.com/${inputObj.githubUrl} or by email at ${inputObj.email}.
 
 
