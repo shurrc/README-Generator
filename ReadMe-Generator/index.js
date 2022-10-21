@@ -21,43 +21,43 @@ const renderMd = (inputObj) =>{
     let mdStr = '';
     
     mdStr += 
-    `# ${inputObj.Projectname}
+`# ${inputObj.Projectname}
 
-    - [Description](##Description)
-    - [Installation](##installation)
-    - [Usage](##usage)
-    - [Tests](##Tests)
-    - [Credits](##credits)
-    - [License](##license)
-    - [Contribution Guidelines](##Contribution)
-    - [Questions](##Questions)
+- [Description](##Description)
+- [Installation](##installation)
+- [Usage](##usage)
+- [Tests](##Tests)
+- [Credits](##credits)
+- [License](##license)
+- [Contribution Guidelines](##Contribution)
+- [Questions](##Questions)
 
 
-    ## Description
-    ${inputObj.description}
+## Description
+${inputObj.description}
+
+## Installation
+${inputObj.installInstructions} 
     
-    ## Installation
-    ${inputObj.installInstructions} 
-     
-    ## Usage
-    ${inputObj.usage}
+## Usage
+${inputObj.usage}
 
-    ## Tests
-    ${inputObj.testInstructions}
+## Tests
+${inputObj.testInstructions}
 
-    ## Credits
-    ${inputObj.contributors}
-    ${inputObj.assets}
+## Credits
+${inputObj.contributors}
+${inputObj.assets}
 
-    
-    ## License
-    ${inputObj.license}
 
-    ##Contribution Guidelines
-    ${inputObj.contrabutionGuidelines}
+## License
+${inputObj.license}
 
-    ##Questions
-    If you have any questions regarding the project you can contact me on github at https://github.com/${inputObj.githubUrl} or by email at ${inputObj.email}.
+##Contribution Guidelines
+${inputObj.contrabutionGuidelines}
+
+##Questions
+If you have any questions regarding the project you can contact me on github at https://github.com/${inputObj.githubUrl} or by email at ${inputObj.email}.
 
 
 
