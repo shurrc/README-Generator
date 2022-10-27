@@ -1,7 +1,6 @@
-// TODO: Include packages needed for this application
 const {prompt: myPrompt} = require('inquirer')
 const {writeFile} = require('fs')
-// TODO: Create an array of questions for user input
+
 const promptInput = (message, required = false ) =>
     myPrompt([{
         name: 'val',
