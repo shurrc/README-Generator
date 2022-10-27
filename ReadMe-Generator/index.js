@@ -67,7 +67,6 @@ If you have any questions regarding the project you can contact me on github at 
     return mdStr;
 }
 
-// TODO: Create a function to write README file
 (async () => {
     console.log(`Welcome to the Portfolio Henerator!\n`)
     console.log(`You will be prompted with a series of questions\n`)
